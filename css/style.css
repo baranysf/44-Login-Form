@@ -1,0 +1,58 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(120deg, rgb(7, 7, 46), rgb(2, 108 ,143));
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+div.container>h1{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+input{
+    width: 100%;
+    margin: 25px 0;
+    font-size: 22px;
+}
+
+div.container>form>input[type=text], div.container>form>input[type=password]{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid silver;
+}
+
+div.container>form{
+    padding: 0 40px;
+}
+
+div.container>form>input[type=submit]{
+    color: white;
+    background-color: rgb(2, 108 ,143);
+    border-radius: 25px;
+    padding: 15px 0;
+    border: 2px solid blue;
+}
+
+div.container>form>input[type=submit]:hover{
+    background-color: blue;
+    border: 2px solid rgb(2, 108 ,143);
+}
